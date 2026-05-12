@@ -11,7 +11,7 @@ services:
       - SPRING_PROFILES_ACTIVE=docker
       - SPRING_DATASOURCE_URL=jdbc:mysql://host.docker.internal:3306/chongwufuwu?serverTimezone=GMT%2B8&useSSL=false&allowPublicKeyRetrieval=true
       - SPRING_DATASOURCE_USERNAME=root
-      - SPRING_DATASOURCE_PASSWORD=Acx20050624
+      - SPRING_DATASOURCE_PASSWORD=632048
       - SPRING_REDIS_HOST=redis
     depends_on:
       redis:
