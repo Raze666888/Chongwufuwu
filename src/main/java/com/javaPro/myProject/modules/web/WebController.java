@@ -89,37 +89,37 @@ public class WebController {
 //----------------------用户
 @GetMapping({"/userindex"})
 public String userindex() {
-    return "/webSite/index";
+    return "webSite/index";
 }
 @GetMapping({"/userproductlist"})
 public String userproductlist() {
-    return "/webSite/shop";
+    return "webSite/shop";
 }
 @GetMapping({"/usercart"})
 public String usercart() {
-    return "/webSite/cart";
+    return "webSite/cart";
 }
 @GetMapping({"/usercontact"})
 public String usercontact() {
-    return "/webSite/contact";
+    return "webSite/contact";
 }
 @GetMapping({"/userblog"})
 public String userblog() {
-    return "/webSite/blog";
+    return "webSite/blog";
 }
 @GetMapping({"/userblogdetail"})
 public String userblogdetail() {
-    return "/webSite/blog-detail";
+    return "webSite/blog-detail";
 }
 @GetMapping({"/usersingle"})
 public String usersingle() {
-    return "/webSite/single-product";
+    return "webSite/single-product";
 }
 
 //----------------------服务商
 @GetMapping({"/companyindex"})
 public String companyindex() {
-    return "/webSite/index";
+    return "webSite/index";
 }
 
 @GetMapping({"/provider/dashboard"})

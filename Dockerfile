@@ -32,7 +32,7 @@ RUN mvn clean package -DskipTests -B
 # 阶段2: 运行阶段
 # 使用精简的 JRE 镜像运行应用
 # ------------------------------------------
-FROM eclipse-temurin:8-jre-alpine
+FROM amazoncorretto:8-alpine
 
 # 设置维护者信息
 LABEL maintainer="your-email@example.com"
