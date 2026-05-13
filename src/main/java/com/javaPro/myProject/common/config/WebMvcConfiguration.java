@@ -37,6 +37,7 @@ public class WebMvcConfiguration implements WebMvcConfigurer {
                         "/web/userblogdetail",
                         "/web/usercontact",
                         "/web/usersingle",
+                        "/web/aipet",
                         "/product/**",
                         "/producttype/**",
                         "/company/**",
@@ -44,7 +45,8 @@ public class WebMvcConfiguration implements WebMvcConfigurer {
                         "/uploads/**",
                         "/test/**",
                         "/comment/**",
-                        "/webnotice/**"
+                        "/webnotice/**",
+                        "/aipet/**"
                 )//去除对这些接口地址的拦截
                 .addPathPatterns("/web/*");
     }
